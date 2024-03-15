@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "780664607235",
+    "project_id": "videosteaming-97553",
+    "storage_bucket": "videosteaming-97553.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:780664607235:android:6bf6190667bfe5b85ab436",
+        "android_client_info": {
+          "package_name": "com.impetus.videosteaming"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCR3ll0GMCfp9eEzlbnUSzPmsxzf3Pyf4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

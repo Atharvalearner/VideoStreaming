@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <VideoView
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:id="@+id/video_view"
+        android:backgroundTint="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/v_name"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:hint="video name"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/v_choose"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:clickable="true"
+        android:hint="choose video"
+        android:onClick="chooseVideo"
+        android:padding="10dp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/v_show"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:clickable="true"
+        android:hint="show video"
+        android:onClick="showVideo"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/v_upload"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:onClick="uploadVideo"
+        android:padding="10dp"
+        android:text="upload video"
+        android:textColor="@color/black"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:indeterminate="true"
+        android:indeterminateTint="@color/common_google_signin_btn_text_dark_pressed"
+        android:id="@+id/p_bar"/>
+</LinearLayout>
